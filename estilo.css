@@ -1,0 +1,174 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    width: 100%;
+	padding-top: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.menu {
+    width:100%;
+    background-color: rgb(134, 231, 145);
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    margin: 10px;
+}
+li{
+	font-size: medium;
+	font-style: oblique;
+	color: rgb(6, 59, 6);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+    list-style: none;
+}
+
+body{
+	margin-left: 3%;
+	margin-right: 3%;
+	background-image: url(https://images.vexels.com/media/users/3/104555/raw/8f927d3f9991e8dc2ec36eeedff27913-fondo-de-hojas-verdes-magicas.png);
+	background-repeat: round;
+}
+.nombre{
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	color: green;
+	font-family: cursive;
+	font-size: 55px;
+	text-shadow: 8px 8px 5px rgb(79, 197, 40);
+}
+figure{
+	width: 100%;
+	display: flex;
+	margin-top: 10px;
+	background-image: url(https://www.ruraltectv.com.br/wp-content/uploads/2020/06/SEGURO-RURAL-2.jpg);
+	background-repeat:round;
+	height: 750px ;
+}
+main{
+	margin-top: 10px;
+    width:100%;
+}
+section{
+	margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+article {
+    width: 400px;
+    height: 350px;
+    margin: 5px;
+    padding: 5px;
+}
+.ini{
+	display: flex;
+	margin-top: 10px;
+}
+.ple{
+	display: flex;
+	margin-top: 10px;
+}
+.btn{
+	display: flex;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+img
+{
+	
+	display: block;
+	opacity: 0.5;
+}
+img:hover
+{
+	opacity: 1.0;
+}
+#cambio{
+	margin-top: 10px;
+	height: 200px;
+	width: 50%;
+	float: left;
+	border-radius: 10px 10px;
+}
+
+#cambiar{
+	margin-top: 30px;
+	height: 200px;
+	width: 50%;
+	float: right;
+	border-radius: 10px 10px;
+}
+.item{
+	justify-content: none;
+}
+.image1{
+	display: contents;
+	display: flex;
+	float: left;
+}
+.image2{
+	display: contents;
+	display: flex;
+	float: left;
+}
+.image3{
+	display: contents;
+	display: flex;
+	float: left;
+}
+.image4{
+	display: contents;
+	display: flex;
+	float: left;
+}
+.image5{
+	display: contents;
+	display: flex;
+	float: left;
+}
+.image6{
+	display: contents;
+	display: flex;
+	float: left;
+}
+.sec1{
+	width: 200px;
+	float: left;
+	display: flex;
+}
+.sec2{
+	width: 200px;
+	float: left;
+	display: flex;
+}
+.sec3{
+	width: 200px;
+	float: left;
+	display: flex;
+}
+.sec4{
+	width: 200px;
+	float: left;
+	display: flex;
+}
+.sec5{
+	width: 200px;
+	float: left;
+	display: flex;
+}
+.sec6{
+	width: 200px;
+	float: left;
+	display: flex;
+}
+

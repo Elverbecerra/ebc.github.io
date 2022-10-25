@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi tienda AgroZ</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
+</head> 
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Sobre Nosotros</li>
+                        <li>Galeria</li>
+                        <li>Contacto</li> 
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <label  for="" >Bienvenid(@)</label>
+                        <label for="" id="respuesta"></label>
+                    </ul>  
+            </div>
+        </nav>
+        <figure>
+            <div class="nombre">
+                <h1><marquee behavior="" direction=""> MUNDO AGROPERIO </marquee></h1>
+            </div>
+        </figure>
+		<main>
+            <section>
+                <article class="inicio">
+                    <div class="ini"><label for="">INICIAR SESION</label></div>
+                    <div class="ple"><input type="text" id="nombre" placeholder="Ingrese nombre de usuario"></div>
+                    <div class="btn"><button onclick="Registro()">INGRESAR</button></div>   
+                </article>
+                <article>
+                    <img width="100%" height="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEswob-3N-No1bI9QUMsrbmo4uA7DALph7czZO-k2j8XSpMJ0idtgTICu_8-J9KBQamc&usqp=CAU" alt="">
+                </article>
+                <article>
+                    <br>
+                    <h2>Tu tienda Favorita</h2>
+                    <br>
+                    <br>
+                    <p> En Agropecuria Zepita crecemos y diversificamos nuestra actividad
+                    para ofrecer a nuestros clientes la gama más amplia de productos desde junficidas,
+                    insecticidas, abonos y fertilizantes para la agricultura a productos químicos industriales.
+                    </p>    
+                </article>
+            </section>
+            <section>
+                <article class="item">
+                    <div class="image1">
+                        <img width="20px" height="15px" src="https://cdn-icons-png.flaticon.com/128/190/190411.png" alt="">
+                        <div class="sec1">
+                        <h3>Item Uno</h3>
+                        </div>
+                    </div>
+                    <div class="image2">
+                        <img width="20px" height="15px" src="https://cdn-icons-png.flaticon.com/128/5988/5988414.png" alt="">
+                        <div class="sec2"><h3>Item Dos</h3></div>
+                    </div>
+                    <div class="image3">
+                        <img width="20px" height="15px" src="https://cdn-icons-png.flaticon.com/128/262/262616.png" alt="">
+                        <div class="sec3"><h3>Item Tres</h3></div>
+                    </div>
+                    <div class="image4">
+                        <img width="20px" height="15px" src="" alt="">
+                        <div class="sec4"><h3>Item Cuatro</h3></div>
+                    </div>
+                    <div class="image5">
+                        <img width="20px" height="15px" src="" alt="">
+                        <div class="sec5"><h3>Item Cinco</h3></div>
+                    </div>
+                    <div class="image6">
+                        <img width="20px" height="15px" src="" alt="">
+                        <div class="sec6"><h3>Item Seis</h3></div>
+                    </div>
+                </article>
+                <article>
+                    Propósito
+                    Contribuir a una agricultura mas efectiva, para preservar el encanto de trabajar la tierra.
+                    
+                    Visión
+                    Merecer la confianza del agricultor y ser su mejor aliado.
+                    
+                    Valores
+                    Respeto – Queremos hacer de nuestra tienda un lugar donde trabajadores y clientes nos sientamos a gusto.
+                    Integridad – Cumplimos lo que decimos y no recomendamos algo que nosotros no haríamos. La confianza del agricultor es nuestro mayor activo.
+                    Superación – Cada día es una oportunidad de aprender algo y de ser mejores que ayer.
+                    Meritocracia – Trabajamos por objetivos, entregamos soluciones, somos recompensados por resultados.</article>
+                <article>
+                    <div id="cambio">
+                        <label form="num1">Ingrese el monto :</label>
+                        <br>
+                        <input type="number" name="num1" id="num1" value="0" placeholder="        ">
+                        <br>
+                        <br>
+                        <label form="num1" id="r"> RESULTADO </label>
+                        <br>
+                        <input type="number" name="resul" disabled id="resul">
+                    </div>
+                    <div id="cambiar">
+                        <input type="radio" name="Bol" id="Bolivianos" value="33,3" onclick="Bolivianos()"> Bolivianos 00 BS 
+                        <br>
+                        <br>
+                        <input type="radio" name="Bol" id="Dolar" value="0"  onclick="Dolar()"> Dolar 00$
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>	
+    <script >
+        function Registro(){
+            var nom=document.getElementById("nombre").value;
+            if(nom==""){
+                alert("Ingrese su nombre")
+            }
+            document.getElementById("respuesta").innerHTML=nom;
+        }
+        function Bolivianos(){
+                    var n1=parseInt(document.getElementById("num1").value);
+                    if(n1==0)
+                    {
+                        alert("Debe ingresar un monto");
+                    }
+                    var r;
+                    r=n1*6.88;
+                    document.getElementById("resul").value=r;
+                    document.getElementById("resul").style.textAlign= "center";
+                    document.getElementById("r").innerHTML="Bolivianos" ;
+        }	
+        function Dolar(){
+                    var n1=parseInt(document.getElementById("num1").value);
+                    if(n1==0)
+                    {
+                        alert("Debe ingresar un monto");
+                    }
+                    var r;
+                    r=n1/6.88;
+                    document.getElementById("resul").value=r;
+                    document.getElementById("resul").style.textAlign= "center";
+                    document.getElementById("r").innerHTML="Dolar" ;
+        }	
+        </script>	
+</body>
+</html>
